@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "importer.h"
 using namespace std;
 
 string ConnectNames(string first, string second)
@@ -8,6 +8,10 @@ string ConnectNames(string first, string second)
 }
 
 int main() {
-    cout << ConnectNames("William", "B") << std::endl;
+
+    cout << ConnectNames("William", "B Williams") << std::endl;
+    Multiplier();
     return 0;
+
+
 }
