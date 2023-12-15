@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(params main.cpp
         importer.cpp
         importer.h
-        duplicator.h)
+        duplicator.h
+)
